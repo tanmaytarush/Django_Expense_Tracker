@@ -26,7 +26,7 @@ This is a simple expense tracking application built using Django, a Python web f
 **Installation**
 ---------------
 
-1. Clone the repository: `git clone https://github.com/your-username/expense-tracker.git`
+1. Clone the repository: `git clone https://github.com/tanmaytarush/expense-tracker.git`
 2. Install the requirements: `pip install -r requirements.txt`
 3. Run the migrations: `python manage.py migrate`
 4. Collect the static files: `python manage.py collectstatic`
