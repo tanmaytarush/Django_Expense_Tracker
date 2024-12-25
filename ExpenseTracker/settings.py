@@ -75,19 +75,38 @@ WSGI_APPLICATION = 'ExpenseTracker.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/5.1/ref/settings/#databases
 
+# DATABASES = {
+#     'default':{
+#         'ENGINE': 'django.db.backends.mysql',
+#         'NAME': 'testdb',
+#         'USER': ' root',
+#         'PASSWORD': 'root',
+#         'HOST': '127.0.0.1',
+#         'PORT': '3306',
+#         'OPTIONS': {
+#             'unix_socket': '/Applications/XAMPP/xamppfiles/var/mysql/Tanmays-MacBook-Pro.local.pid',
+#         },
+#     }
+# }
+
 DATABASES = {
-    'default':{
+    'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'expense',
+        'NAME': 'testdb',
         'USER': 'root',
         'PASSWORD': 'root',
         'HOST': 'localhost',
-        'PORT': '3306',
-        # 'OPTIONS': {
-        #     'unix_socket': '/Applications/XAMPP/xamppfiles/var/mysql/mysql.sock',
-        # },
+        'PORT': '8889',
     }
 }
+
+# 'user': 'root',
+#   'password': 'root',
+#   'host': 'localhost',
+#   'unix_socket': '/Applications/MAMP/tmp/mysql/mysql.sock',
+#   'database': 'mydatabase',
+#   'raise_on_warnings': True
+
 
 
 # Password validation

@@ -19,7 +19,7 @@ class TrackingHistory(models.Model):
         return f"The Amount is {self.amount} for {self.description} expense_type is {self.expense_type}"
     
 class RequestLogs(models.Model):
-    request_info = models.TextField()
+    request_info = models.TextField()          
     request_type = models.CharField(max_length=100)
     request_method = models.CharField(max_length=100) 
     created_at = models.DateTimeField(auto_now_add=True)
